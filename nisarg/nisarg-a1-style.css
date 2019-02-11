@@ -1,0 +1,444 @@
+body,html{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+
+/* First Page */
+.par{
+	background-image: url('apricot-background-berry-1028599.jpg');
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.introduction{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height:300px;
+}
+/*.par-2{
+	background-image: url('brooke-lark-500141-unsplash.jpg');
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
+.house{
+	position: absolute;
+	font-family: Pacifico;
+	color: rgb(5, 5, 5);
+	font-size:60px;
+	top: 30%;
+	left:4%;
+}
+.house_cont{
+	position: absolute;
+	font-family: "Indie Flower";
+	color: rgb(30,30,30);
+	font-size: 40px;
+	top: 50%;
+	left: 4.5%; 
+}
+.button{
+	position: absolute;
+	background-color: rgb(0,0,0);
+	border: solid 1px black;
+	color: white;
+	padding:10px 20px;
+	font-size:15px;
+	border-radius: 5px;
+	top:63%;
+	left:4.5%;
+	font-family: monospace;
+}
+.button:hover {
+  background-color: rgb(240,240,240);
+  color: black;
+}
+
+/* for nav buttons */
+ul{
+	padding:0;
+	list-style: none;
+}
+li {
+  float: left;
+  font-family: Times;
+}
+li a {
+  display: block;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(5,5,5);
+  color:rgb(250,250,250);
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+/* Navigation bar */
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	height: auto;
+	width: 85%;
+	margin :auto;
+	background-color: rgb(255,255,255);
+
+}
+.nav-bar-superset{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+/* Main Page : */
+
+.main{
+	background-color: rgb(235,235,235);
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 6%;
+}
+
+.right-side{ 
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 16px;
+}
+.right-side a{
+	text-decoration: none;
+	color: rgb(58, 166, 178);
+	padding: 0.4% 1.5%;
+	font-size: 1.5em;
+	border: 1px solid rgb(58, 166, 178) ;
+	transition: 0.3s;
+}
+.right-side a:hover{
+	background-color: rgb(58, 166, 178);
+	color: white;
+}
+.left-side{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.post{
+	height: 300px;
+	width: 100%;
+	max-height: 400px;
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	margin: 15px 10px;
+}
+.admin-icon{
+	display: flex;
+	justify-content: flex-start;
+	height: 20%;
+	align-items: center; 	
+	font-family: helvatica;
+}
+.admin-icon img{
+	height: 24px;
+	width: 24px;
+
+}
+
+.details{
+    padding: 3% 3% 0 3%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+"
+}
+.details p{
+	font-size: 15px;
+	font-family: times; 
+	color: rgb(10, 10, 10);
+}
+.comment{
+	font-family: 'Times', serif;
+	display: flex;
+	justify-content: space-between;
+}
+.see-all button{
+/*add same css as of shop plans button*/
+}
+.author-post{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.author-post img{ 
+	width: 100%;
+	height: auto;
+}
+.info{
+	width:100%;
+	background-color: white;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.info a{
+	color: rgb(10, 10, 10);
+	font-size: 10px;
+	padding-left: 10%;
+}
+.info u{
+	padding-left: 35px;
+	text-align: left;
+	font-size: 10px;
+}
+#info-1{
+	width: 80%;
+	padding: 8%;
+	font-size: 3rem;
+	padding-bottom: 5%;
+	font-family: Pacifico;
+	color: rgb(10, 10, 10);
+}
+#info-2{
+	font-family: 'arial', sans-serif;
+	font-size: 0.8rem;
+	padding-bottom: 7%;
+	padding-left: 10%;
+	padding-right: 10%;
+	line-height: 25.6px;
+}
+.meal-plans{
+	
+	width: 100%;
+	height:16%;
+	background-image: url(agriculture-cherry-tomatoes-cooking-262967.jpg);
+	background-size: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-bottom: 10px;
+}
+.meal-plans-box{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: space-around;
+	margin:auto;
+	text-align: center;
+	color: rgb(10,10,10);
+}
+.meal-plans-box h2{
+	font-size: 32px;
+	font-family: 'times';
+	padding-bottom: 5%;
+}
+.meal-plans-box span a{
+	font-size: 20px;
+	text-decoration: none;
+	color: rgb(10,10,10);
+}
+.can-find-me{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	height: 10%;
+	background-color: rgb(40, 40, 40);	
+}
+.can-find-me p{
+	font-size: 15px;
+	margin:auto;
+	color: rgb(245,245,245);
+	font-family: 'Times';
+}
+
+.subscribe-news{
+	width: 100%;
+	height: 10%;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	background-color: rgb(251, 251, 251);
+	
+}
+.subscribe-news p{
+	padding: 10px;  
+	font-size: 25px;
+	color: rgb(10, 10, 10);
+	text-align: center;
+	font-family: Times;
+}
+.form1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.form1 button{
+	padding: 5px;
+	background-color: rgb(2, 1, 4);
+	border: none;
+	color: white;
+}
+.form1 form{
+	height: 80%;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+	padding: 20px;
+}
+
+
+hr{
+  border: 0;
+  clear:both;
+  display:block;
+  width: 98%;               
+  background-color:rgb(140,140,140);
+  height: 1px;
+  margin: 1px 0px;
+}
+
+
+
+
+
+
+
+
+
+/*Follow Section : Completed!*/
+.temp{
+	background-color: rgb(250,250,250);
+	width:auto;
+	height:;
+}
+.follow{
+	margin:4rem;
+}
+.follow p{
+	padding: auto;
+	text-align: center;
+	margin: auto;
+	font-size: 30px;
+	color: rgb(20,20,20);	
+	font-family: Indie Flower;
+}
+.follow strong{
+	text-align: center;
+	font-size: 70px;
+	color: rgb(10,10,10);
+	font-family: "Pacifico";
+}
+
+.follow-me{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.follow-me img:hover{
+	opacity: 0.70;
+}
+
+
+
+
+
+/* Subscribe section : Completed!*/
+.subscribe{
+	background-color: rgb(240,240,240);
+}
+.foot{
+	padding-top: 40px;
+	text-align: center;
+	margin: auto;
+	width: 90%;
+	height: 350px;
+}
+.foot h1{
+	padding-top: 90px;
+	padding-bottom: 25px;
+	margin-top: 1px;
+	font-family: "Indie Flower";
+	font-size: 39px;
+	color: rgb(2,1,4);
+}
+.foot form input{
+	border: black solid 0.1px;
+	width: 50%;
+	padding:7px 12px;
+	margin:auto;
+	font-size: 17px;
+	font-family: "Monospace"
+}
+.foot button{
+	position: relative;
+	background-color: rgb(0,0,0);
+	border: solid 0.1px black;
+	color: white;
+	padding:7px 12px;
+	font-size: 17px;
+	border-radius: 0px;
+	font-family: "Monospace"
+}
+.foot button:hover {
+  background-color: rgb(255,255,255);
+  color: black;
+}
+.foot p{
+	padding : 18px;
+	font-family: "helvatica";
+	font-size: 18px;
+	color: rgb(2,1,4);
+}
+
+
+/*Footer : Completed!*/ 
+.footer{
+	width: auto;
+
+	padding:10px;
+	background-color: rgb(2,1,4);
+}
+.footer p{
+	margin: 0px 15px;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+}
+
+
